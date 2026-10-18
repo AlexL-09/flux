@@ -1,5 +1,6 @@
 package cc.smitp.flux.lang;
 
+
 public record Diagnostic(String message, Program.Span span) {
     @Override public String toString() { return span.line() + ":" + span.column() + " " + message; }
     public static final class Failure extends IllegalArgumentException {
