@@ -4,7 +4,7 @@ A client-only Fabric mod for Minecraft **26.2 / Java 25**. Build inventory workf
 
 ## Install and use
 
-Build with `./gradlew build`, then put `build/libs/flux-1.0.0.jar` and Fabric API **0.160.0+26.2** in your Minecraft 26.2 instance's `mods` directory. Use Fabric Loader **0.19.5 or newer** and Java 25. The server does not need Flux.
+Build with `./gradlew build`, then put `build/libs/flux-1.0.0.jar` and Fabric API **0.160.0+26.2** in your Minecraft 26.2 instance's `mods` directory. Use Fabric Loader **0.19.5 or newer** and Java 25. **The server does not need Flux.**
 
 1. Open the chest you want to automate, then press **F8** to open Flux. Opening the editor closes the inventory menu.
 2. Select a Condition node and click **Capture container**. This fills in the last verified container's dimension and coordinates.
