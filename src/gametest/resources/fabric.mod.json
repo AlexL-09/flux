@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "flux-gametest",
+  "version": "1.0.0",
+  "name": "Flux integration tests",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-client-gametest": [
+      "cc.smitp.flux.FluxGameTest"
+    ]
+  },
+  "depends": {
+    "flux": "*"
+  },
+  "mixins": [
+    "flux-gametest.mixins.json"
+  ]
+}

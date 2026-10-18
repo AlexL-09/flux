@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "cc.smitp.client.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ContainerPacketsMixin",
+    "ContainerInteractionMixin",
+    "KeyboardMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
