@@ -1,6 +1,6 @@
 # Flux
 
-A client-only Fabric mod for Minecraft **26.2 / Java 25**. Build inventory workflows in an in-game circuit editor or a readable `.flux` language. Both editors share the same validated program model.
+A client-only Fabric mod for Minecraft **26.2 / Java 25**. Build inventory workflows in an in-game circuit editor or a readable `.flux` language. **Both editors share the same validated program model.**
 
 ## Install and use
 
